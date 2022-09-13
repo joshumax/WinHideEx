@@ -7,7 +7,7 @@ system calls. It does this through remote DLL injection (managed by WinHideEx GU
 
 With WinHideEx you can hide whatever files and folders you wish, so long as the target application has been injected at some point by the provided injector service.
 Simply load the management GUI from the toolbar, add the programs you wish to hide files/directories from (for example, I have added Windows Explorer and Command
-Prompt), create a "hider" regex to match those unsightly inodes (example: "\..*" will hide all files and folders beginning with a dot), and finally click save! The
+Prompt), create a "hider" regex to match those unsightly inodes (example: "\\..*" will hide all files and folders beginning with a dot), and finally click save! The
 service will continuously monitor the process list for any new matching program instances and magically patch them as well. It's simple!
 
 ## Why?
